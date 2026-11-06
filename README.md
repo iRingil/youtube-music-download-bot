@@ -36,23 +36,23 @@
     <a href="https://github.com/psf/black">
         <img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-black.svg">
     </a>
-    <a href="https://github.com/rin-gil/youtube-music-download-bot/actions/workflows/tests.yml">
-        <img src="https://github.com/rin-gil/youtube-music-download-bot/actions/workflows/tests.yml/badge.svg" alt="Code tests">
+    <a href="https://github.com/iRingil/youtube-music-download-bot/actions/workflows/tests.yml">
+        <img src="https://github.com/iRingil/youtube-music-download-bot/actions/workflows/tests.yml/badge.svg" alt="Code tests">
     </a>
-    <a href="https://github.com/rin-gil/youtube-music-download-bot/actions/workflows/codeql.yml">
-        <img src="https://github.com/rin-gil/youtube-music-download-bot/actions/workflows/codeql.yml/badge.svg" alt="Code tests">
+    <a href="https://github.com/iRingil/youtube-music-download-bot/actions/workflows/codeql.yml">
+        <img src="https://github.com/iRingil/youtube-music-download-bot/actions/workflows/codeql.yml/badge.svg" alt="Code tests">
     </a>
-    <a href="https://github.com/rin-gil/youtube-music-download-bot/blob/master/LICENCE">
+    <a href="https://github.com/iRingil/youtube-music-download-bot/blob/master/LICENCE">
         <img src="https://img.shields.io/badge/licence-MIT-success" alt="MIT licence">
     </a>
 </p>
 
 <p align="right">
-    <a href="https://github.com/rin-gil/youtube-music-download-bot/blob/master/README.ru.md">
-        <img src="https://raw.githubusercontent.com/rin-gil/rin-gil/main/assets/img/icons/flags/russia_24x24.png" alt="Ru">
+    <a href="https://github.com/iRingil/youtube-music-download-bot/blob/master/README.ru.md">
+        <img src=".github/assets/russia_24x24.png" alt="Ru">
     </a>
-    <a href="https://github.com/rin-gil/youtube-music-download-bot/blob/master/README.ua.md">
-        <img src="https://raw.githubusercontent.com/rin-gil/rin-gil/main/assets/img/icons/flags/ukraine_24x24.png" alt="Ua">
+    <a href="https://github.com/iRingil/youtube-music-download-bot/blob/master/README.ua.md">
+        <img src=".github/assets/ukraine_24x24.png" alt="Ua">
     </a>
 </p>
 
@@ -67,12 +67,12 @@ Bot to download music from YouTube. Working version is available here [@YT_upl_B
 
 ### Installing Bot
 
-If you want a simple version of the bot, without using Postgres database and without working in webhook mode, go to [this branch](https://github.com/rin-gil/youtube-music-download-bot/tree/simple-with-sqlite-no-webhook).
+If you want a simple version of the bot, without using Postgres database and without working in webhook mode, go to [this branch](https://github.com/iRingil/youtube-music-download-bot/tree/simple-with-sqlite-no-webhook).
 
 Install the bot with the command in the terminal:
 
 ```
-wget https://raw.githubusercontent.com/rin-gil/youtube-music-download-bot/master/infrastructure/deploy.sh && chmod +x deploy.sh && ./deploy.sh
+wget https://raw.githubusercontent.com/iRingil/youtube-music-download-bot/master/infrastructure/deploy.sh && chmod +x deploy.sh && ./deploy.sh
 ```
 
 ### Installing and setup Postgres
@@ -105,7 +105,7 @@ Replace _db_name_, _db_user_ and _db_password_ in these commands with your data.
 
 ### Additional configuration
 
-Example configurations for running the bot in webhook mode or as a systemd service can be found in the [infrastructure](https://github.com/rin-gil/youtube-music-download-bot/tree/master/infrastructure) folder
+Example configurations for running the bot in webhook mode or as a systemd service can be found in the [infrastructure](https://github.com/iRingil/youtube-music-download-bot/tree/master/infrastructure) folder
 
 ### Restrictions
 
@@ -117,8 +117,8 @@ Example configurations for running the bot in webhook mode or as a systemd servi
 
 ### Developers
 
-* [Ringil](https://github.com/rin-gil)
+* [Ringil](https://github.com/iRingil)
 
 ### License
 
-YouTubeMusicDownloadBot is licensed under [MIT](https://github.com/rin-gil/youtube-music-download-bot/blob/master/LICENCE.md)
+YouTubeMusicDownloadBot is licensed under [MIT](https://github.com/iRingil/youtube-music-download-bot/blob/master/LICENCE.md)

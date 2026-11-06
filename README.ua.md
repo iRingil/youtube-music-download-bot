@@ -36,23 +36,23 @@
     <a href="https://github.com/psf/black">
         <img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-black.svg">
     </a>
-    <a href="https://github.com/rin-gil/youtube-music-download-bot/actions/workflows/tests.yml">
-        <img src="https://github.com/rin-gil/youtube-music-download-bot/actions/workflows/tests.yml/badge.svg" alt="Code tests">
+    <a href="https://github.com/iRingil/youtube-music-download-bot/actions/workflows/tests.yml">
+        <img src="https://github.com/iRingil/youtube-music-download-bot/actions/workflows/tests.yml/badge.svg" alt="Code tests">
     </a>
-    <a href="https://github.com/rin-gil/youtube-music-download-bot/actions/workflows/codeql.yml">
-        <img src="https://github.com/rin-gil/youtube-music-download-bot/actions/workflows/codeql.yml/badge.svg" alt="Code tests">
+    <a href="https://github.com/iRingil/youtube-music-download-bot/actions/workflows/codeql.yml">
+        <img src="https://github.com/iRingil/youtube-music-download-bot/actions/workflows/codeql.yml/badge.svg" alt="Code tests">
     </a>
-    <a href="https://github.com/rin-gil/youtube-music-download-bot/blob/master/LICENCE">
+    <a href="https://github.com/iRingil/youtube-music-download-bot/blob/master/LICENCE">
         <img src="https://img.shields.io/badge/licence-MIT-success" alt="MIT licence">
     </a>
 </p>
 
 <p align="right">
-    <a href="https://github.com/rin-gil/youtube-music-download-bot/blob/master/README.md">
-        <img src="https://raw.githubusercontent.com/rin-gil/rin-gil/main/assets/img/icons/flags/united-kingdom_24x24.png" alt="En">
+    <a href="https://github.com/iRingil/youtube-music-download-bot/blob/master/README.md">
+        <img src=".github/assets/united-kingdom_24x24.png" alt="En">
     </a>
-    <a href="https://github.com/rin-gil/youtube-music-download-bot/blob/master/README.ru.md">
-        <img src="https://raw.githubusercontent.com/rin-gil/rin-gil/main/assets/img/icons/flags/russia_24x24.png" alt="Ru">
+    <a href="https://github.com/iRingil/youtube-music-download-bot/blob/master/README.ru.md">
+        <img src=".github/assets/russia_24x24.png" alt="Ru">
     </a>
 </p>
 
@@ -67,12 +67,12 @@
 
 ### Інсталяція бота
 
-Якщо вам потрібна проста версія бота, без використання бази даних Postgres і без роботи в режимі веб-хука, перейдіть до [цієї гілки](https://github.com/rin-gil/youtube-music-download-bot/tree/simple-with-sqlite-no-webhook).
+Якщо вам потрібна проста версія бота, без використання бази даних Postgres і без роботи в режимі веб-хука, перейдіть до [цієї гілки](https://github.com/iRingil/youtube-music-download-bot/tree/simple-with-sqlite-no-webhook).
 
 Встановіть бота за допомогою команди в терміналі:
 
 ```
-wget https://raw.githubusercontent.com/rin-gil/youtube-music-download-bot/master/infrastructure/deploy.sh && chmod +x deploy.sh && ./deploy.sh
+wget https://raw.githubusercontent.com/iRingil/youtube-music-download-bot/master/infrastructure/deploy.sh && chmod +x deploy.sh && ./deploy.sh
 ```
 
 ### Встановлення та налаштування Postgres
@@ -105,7 +105,7 @@ ALTER ROLE db_user SET timezone TO 'UTC';
 
 ### Додаткова конфігурація
 
-Приклади конфігурацій для запуску бота в режимі webhook або як systemd-сервіс можна знайти в теці [infrastructure](https://github.com/rin-gil/youtube-music-download-bot/tree/master/infrastructure)
+Приклади конфігурацій для запуску бота в режимі webhook або як systemd-сервіс можна знайти в теці [infrastructure](https://github.com/iRingil/youtube-music-download-bot/tree/master/infrastructure)
 
 ### Обмеження
 
@@ -117,8 +117,8 @@ ALTER ROLE db_user SET timezone TO 'UTC';
 
 ### Розробники
 
-* [Ringil](https://github.com/rin-gil)
+* [Ringil](https://github.com/iRingil)
 
 ### Ліцензія
 
-Проект YouTubeMusicDownloadBot поширюється за ліцензією [MIT](https://github.com/rin-gil/youtube-music-download-bot/blob/master/LICENCE.md)
+Проект YouTubeMusicDownloadBot поширюється за ліцензією [MIT](https://github.com/iRingil/youtube-music-download-bot/blob/master/LICENCE.md)
